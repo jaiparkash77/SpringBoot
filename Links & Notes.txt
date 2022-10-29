@@ -1,0 +1,27 @@
+Documentation- https://spring.io/
+Quick Start - https://start.spring.io/
+
+
+--------------------------
+Security
+
+1. authentication - who are you?
+2. authorization - what all you can access
+3. principle - security principles whether you can access or not?
+4. authority - for security principle there is someone decides who can do what?
+5. role - Ex.(Student/Instructor/Admin)
+
+---------------------------------
+Default username of spring security - [ user ] and password will be desplayed in runtime env (command prompt).
+
+---------------------------------
+
+Authentication Methods
+
+1. Password based
+2. Finger print
+
+--------------------------------
+
+SpringBoot login - http://localhost:8080/login
+SpringBoot logout - http://localhost:8080/logout
