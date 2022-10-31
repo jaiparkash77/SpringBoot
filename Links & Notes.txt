@@ -25,3 +25,34 @@ Authentication Methods
 
 SpringBoot login - http://localhost:8080/login
 SpringBoot logout - http://localhost:8080/logout
+
+----------------------------------------
+Step 1:- Add dependency
+<!-- Swagger Documentation -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+
+Step 2:- Add annotation in main application file
+
+@EnableSwagger2
+
+
+Step 3 :- Add Path Match in application.properties
+
+spring.mvc.pathmatch.matching-strategy=ant-path-matcher
+
+
+Step 4:- Run Application and check Documentation
+
+http://localhost:8080/swagger-ui.html
+
+API generated - http://localhost:8080/v2/api-docs
+
