@@ -1,0 +1,4 @@
+Create a student management portal for a CAT course.
+It’ll enroll students and remove students from course.
+There will be multiple courses so I can call and API to fetch students of a particulat course.
+Also admin should have the option to change the course of a student.
